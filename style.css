@@ -43,6 +43,7 @@ body {
   background-color: #171b1b;
   overflow: hidden;
   position: relative;
+  padding-bottom: 190px;
 }
 .orange-bg {
   position: relative;
@@ -53,13 +54,17 @@ body {
 }
 .orange-section {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: end;
+
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   padding: 150px 0px;
+}
+.flex-column {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
 }
 /* Basic styles */
 .header-wrapper {
@@ -619,4 +624,203 @@ body {
   position: absolute;
   right: -85px;
   top: 51%;
+}
+/* seventh section */
+.seventh-section {
+  display: block;
+}
+.seventh-section h2 {
+  max-width: 570px;
+}
+.scroll-seventh-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.scroll-text-seventh-section p {
+  width: 370px;
+  color: rgba(51, 51, 51, 0.7);
+  font-family: DM Sans;
+  font-size: 16px;
+}
+.scroll-text-seventh-section span {
+  font-family: DM Sans;
+}
+.scroll-text-seventh-section h5 {
+  font-family: Oswald;
+  font-size: 24px;
+  line-height: 32px;
+}
+.scroll-text-seventh-section {
+  display: flex;
+  flex-direction: column;
+  color: #000000;
+  font-family: Oswald;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 32px;
+}
+.seventh-green-shape {
+  position: absolute;
+  right: 21px;
+
+  width: 512px;
+  height: 519px;
+  transform: rotate(151deg);
+}
+.seventh-abstract-center {
+  position: absolute;
+  right: 60px;
+  top: 420px;
+  width: 278px;
+  height: 211px;
+  transform: rotate(7deg);
+}
+.seventh-black-seeds {
+  position: absolute;
+  right: 380px;
+}
+.seventh-white-shape {
+  width: 370px;
+  height: 504px;
+  background-color: #fff;
+  position: absolute;
+  right: 40px;
+  top: 450px;
+}
+/* eighth section */
+.text-headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.size {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.eighth-flex-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eighth-block {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 384px;
+  height: 368px;
+  background-color: white;
+  padding: 40px;
+}
+.eighth-block:hover {
+  width: 400px;
+  height: 390px;
+  background: #9ead8d;
+}
+.grey-circle {
+  width: 102px;
+  height: 102px;
+  border-radius: 50%;
+  background-color: grey;
+}
+.oswald {
+  display: block;
+  width: 100px;
+  color: #171b1b;
+  font-family: Oswald;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+}
+/* nineth  section*/
+
+.scroll-box-nineth {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+}
+.abstract-center-nineth {
+  position: absolute;
+  left: 50px;
+  top: 240px;
+}
+.green-shape-nineth {
+  position: absolute;
+  left: 70px;
+  bottom: 10px;
+}
+.black-seeds-nineth {
+  position: absolute;
+  left: 20%;
+  top: 300px;
+}
+.white-shape-nineth {
+  background-color: white;
+  position: absolute;
+  top: 300px;
+  left: 0;
+  width: 370px;
+  height: 484px;
+}
+.nineth-section {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.loc-phone {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location span,
+p {
+  color: #171b1b;
+  font-family: Oswald;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 40px;
+  font-weight: 400;
+  display: block;
+}
+.tel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 32px;
+}
+.tel-text span {
+  color: #171b1b;
+  font-family: Oswald;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 40px;
+  font-weight: 400;
+  display: block;
+}
+.contact-btn-orange {
+  margin-left: 70px;
+  margin-top: 70px;
+  color: #171b1b;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: 2px solid grey;
+  background: none;
+  padding: 10px 50px;
+}
+
+@media screen and (max-width: 375px) {
 }
