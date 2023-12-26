@@ -13,6 +13,9 @@ body {
 .menu-btn {
   display: none;
 }
+.bitmapp {
+  display: none;
+}
 #black {
   color: black;
 }
@@ -184,7 +187,7 @@ body {
 }
 .bottom {
   position: absolute;
-  bottom: -60px;
+  bottom: -70px;
   left: 40%;
   z-index: 0;
 }
