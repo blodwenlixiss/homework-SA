@@ -929,7 +929,9 @@ a {
   .orange-circle,
   .person-vector,
   .bread-img,
-  .seeds {
+  .seeds,
+  .scroll-seventh-section img,
+  .seventh-white-shape {
     display: none;
   }
   .first-section h1 {
@@ -983,6 +985,10 @@ a {
     line-height: 70px; /* 133.333% */
     margin: 0;
   }
+  .scroll-text p {
+    width: 245px;
+  }
+
   .scroll-text span {
     color: #171b1b;
     font-family: Oswald;
@@ -1100,5 +1106,83 @@ a {
   .scroll-box img,
   .seventh-white-shape {
     display: none;
+  }
+  .black-dot-up img,
+  .black-dot-down img {
+    display: block;
+  }
+  .scroll-text-seventh-section p {
+    width: 245px;
+  }
+  /* section 8 */
+  .scroll-box {
+    max-width: 100%;
+    justify-content: space-evenly;
+  }
+  .scroll-text-seventh-section {
+    max-width: 100%;
+    position: relative;
+  }
+  /* section 9 */
+  .green-shape-nineth,
+  .abstract-center-nineth,
+  .black-seeds-nineth,
+  .white-shape-nineth {
+    display: none;
+  }
+  .location,
+  .tel {
+    gap: 20px;
+    justify-content: normal;
+  }
+  .loc-phone {
+    flex-direction: column;
+  }
+  .location-icon,
+  .tel-icon {
+    position: relative;
+  }
+  .tel-black-icon,
+  .loc-black-icon {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+  }
+  /* footer */
+  .footer-container {
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
+  .footer-up {
+    flex-direction: column;
+
+    align-items: center;
+  }
+  .footer-up h2 {
+    margin-bottom: 0.83em;
+  }
+  .menu-list,
+  .social-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .menu-list ul,
+  .service-list ul {
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 16px;
+
+    line-height: 32px;
+  }
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+  .copyright span {
+    max-width: 180px;
+    text-align: center;
   }
 }
